@@ -18,13 +18,13 @@ Truffle shares many similarities to the [Embark Framework](https://iurimatias.gi
 
 * **Platform Agnostic Build Process:** Truffle aims to support everything from web applications with full user interfaces to Etherum-backed console applications to standalone library wrappers that help you interact with specific contracts, all with their own unique build requirements. You can think of Truffle as a replacement for grunt. Since it builds everything down to flat files, it's guaranteed to work with your environment.
  
-* **Client Agnostic Development Process:** When you're developing you want your results fast and quick. But when you're gearing up to deploy production contracts you want your code stable and correct. Truffle is built without a dependency on any specific Ethereum client, so when you're developing you can use something the [TestRPC](https://github.com/ConsenSys/testrpc) to quickly get the results you want, but when you're ready to deploy you can double check your app against `geth` or `eth` to make sure it is working as intended.
+* **Client Agnostic Development Process:** When you're developing you want your results fast and quick. But when you're gearing up to deploy production contracts you want your code stable and correct. Truffle is built without a dependency on any specific Ethereum client, so when you're developing you can use something the [TestRPC](https://github.com/ConsenSys/testrpc) to quickly get the results you want, but when you're ready to deploy you can double check your app against `geth` or `eth` or `pyethapp` to make sure it is working as intended.
 
 * **Language Agnostic Codebase:** Truffle ships with support for JavaScript, CoffeeScript, SASS, ES6 and JSX built-in, but if you want to use a different langage like HAML or CJSX or Handlebars or Jade you can easily tell Truffle how to process it. 
 
 * **Fully Configurable Directory Structure:** As Truffle is meant to support any style of application, the `app` directory is your oyster. You're not required to have the typical `css`,`javascript`, and `html` directories. You have full control over the build process and can easily specify how your app should be structured within your `app.json` config file.
 
-* **Real Tests:** Truffle is hell-bent on allowing you to run *real* contract code on *real* Ethereum clients so you know how your contracts will actually perform for your users. Though we suggest you use the [TestRPC](https://github.com/ConsenSys/testrpc) during development, you can easily swap it out for `geth` or `eth` and re-run your tests without changing a single line of code.
+* **Real Tests:** Truffle is hell-bent on allowing you to run *real* contract code on *real* Ethereum clients so you know how your contracts will actually perform for your users. Though we suggest you use the [TestRPC](https://github.com/ConsenSys/testrpc) during development, you can easily swap it out for `geth` or `eth` or `pyethapp` and re-run your tests without changing a single line of code.
 
 ### Installation
 
